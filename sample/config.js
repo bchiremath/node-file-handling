@@ -1,0 +1,1 @@
+export var widget = { "imagefile": "abcdef.png" };
