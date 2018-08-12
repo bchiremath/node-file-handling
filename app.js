@@ -12,7 +12,7 @@ var data = fs.readFileSync('data.json');
 //var filenames = JSON.parse(data);
 
 
-
+// read csv file
 fs.createReadStream("sample2.csv")
   .pipe(parse({ delimiter: ':' }))
   .on('data', function (csvrow) {
